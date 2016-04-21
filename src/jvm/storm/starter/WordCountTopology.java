@@ -41,12 +41,13 @@ public class WordCountTopology {
     public static class SplitSentence extends ShellBolt implements IRichBolt {
 
         /**
-         * 
+         * E:\\DevTools\\Python35\\
          */
         private static final long serialVersionUID = 1L;
 
         public SplitSentence() {
-            super("python", "splitsentence.py");
+            //"E:\\dev\\hadoop\\storm\\storm-starter\\multilang\\resources\\" + 
+            super("python", "E:\\dev\\hadoop\\storm\\storm-starter\\multilang\\resources\\" + "splitsentence.py");
         }
 
         @Override
